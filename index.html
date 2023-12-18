@@ -24,6 +24,14 @@
           var iframe = document.getElementById("myIframe");
           iframe.src = "/shabedu/index.html";
         }
+        function chac() {
+                  var iframe = document.getElementById("myIframe");
+                  iframe.src = "/action.html";
+                }
+        function chbg() {
+          var iframe = document.getElementById("myIframe");
+          iframe.src = "/bg.html";
+        }
         </script>
 
     <!--左侧栏-->
@@ -35,8 +43,11 @@
           border-right: 1px solid black
         }
       </style><font size="4"><div class="sidebar">
-<a href="/">首页</a><br>
+<a href="/">首页</a><br><hr>
 <a href="#" onclick="chab()">了解中国四民党</a><br>
+<a href="#" onclick="chac()">我们的行动</a><br>
+<hr>
+<a href="#" onclick="chbg()">翻墙软件目录</a><br>
 <a href="#" onclick="chvd()">纪录片归档</a><br>
 <a href="#" onclick="chorg()">我党准备正式建立组织</a><br>
 <a href="#" onclick="chshab()">山河平行大学半成品网站</a><br>
@@ -50,5 +61,7 @@
    <link rel="prefetch" href="//proxy.cfpparty.org">
    <link rel="prefetch" href="/sbccp.html">
    <link rel="prefetch" href="/org.html">
+   <link rel="prefetch" href="/bg.html">
+   <link rel="prefetch" href="/action.html">
 </head><body><iframe id="myIframe" src="main.html" height="100%" width="84%"></iframe>
     </body></html>
