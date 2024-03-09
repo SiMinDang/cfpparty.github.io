@@ -1,69 +1,31 @@
-<html><head><meta charset="utf-8"><meta lang="zh-CN"><style>a{TEXT-DECORATION:none}</style><title>民智网 - 博观天下,启迪民智</title>
-    <script>
-        function chmn() {
-          var iframe = document.getElementById("main");
-          iframe.src = "main.html";
-        }
-        function chab() {
-          var iframe = document.getElementById("main");
-          iframe.src = "about.html";
-        }
-        function chpx() {
-          var iframe = document.getElementById("main");
-          iframe.src = "//proxy.cfpparty.org";
-        }
-        function chvd() {
-          var iframe = document.getElementById("main");
-          iframe.src = "/sbccp.html";
-        }
-        function chorg() {
-          var iframe = document.getElementById("main");
-          iframe.src = "/org.html";
-        }
-        function chshab() {
-          var iframe = document.getElementById("main");
-          iframe.src = "//shanheabedu.cfpparty.org/";
-        }
-        function chac() {
-                  var iframe = document.getElementById("main");
-                  iframe.src = "/action.html";
-                }
-        function chbg() {
-          var iframe = document.getElementById("main");
-          iframe.src = "/bg.html";
-        }
-        </script>
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中华民国四民会</title>
+  <link rel="stylesheet" href="mdui.min.css">
+</head>
+<body>
+  <header class="mdui-appbar">
+    <div class="mdui-toolbar mdui-color-theme">
+      <a href="#" class="mdui-typo-headline">中华民国四民会</a>
+      <div class="mdui-toolbar-spacer"></div>
+      <a href="about.html" class="mdui-btn">了解我们</a>
+      <a href="act.html" class="mdui-btn">我们的行动</a>
+    </div>
+  </header>
 
-    <!--左侧栏-->
-    <style>
-        .sidebar {
-          float: left;
-          width: 15%;
-          height: 100%;
-          border-right: 1px solid black
-        }
-      </style><font size="4"><div class="sidebar">
-<a href="/">首页</a><br><hr>
-<a href="#" onclick="chab()">了解中国四民党</a><br>
-<a href="#" onclick="chac()">我们的行动</a><br>
-<hr>
-<a href="#" onclick="chbg()">翻墙软件目录</a><br>
-<a href="#" onclick="chvd()">纪录片归档</a><br>
-<a href="#" onclick="chorg()">我党准备正式建立组织</a><br>
-<a href="#" onclick="chshab()">山河平行大学半成品网站</a><br>
+  <div class="mdui-container">
 
-<div style="position: fixed; bottom: 0; left: 0;"><hr><h5>过时页面</h5>
-<a href="#" onclick="chpx()">在线代理免费翻墙</a><br>
-</div></font>
+</div>
+<footer class="mdui-color-theme">
+  <div class="mdui-container"><hr>
+    <a href="https://github.com/CFPParty/"><p>本站已开源到Github<p></a>
+    <p>&copy; 2024 中华民国四民会. All rights reserved.</p>
+  </div>
+</footer>
 
-   </div>
-   <script>
-   document.write("<link rel='prefetch' href='/action.html'>");
-   document.write("<link rel='prefetch' href='/about.html'>");
-   document.write("<link rel='prefetch' href='//proxy.cfpparty.org'>");
-   document.write("<link rel='prefetch' href='/sbccp.html'>");
-   document.write("<link rel='prefetch' href='/org.html'>");
-   document.write("<link rel='prefetch' href='/bg.html'>");
-   </script>
-</head><body><iframe id="main" src="main.html" height="100%" width="84%"></iframe>
-    </body></html>
+  <script src="mdui.min.js"></script>
+</body>
+</html>
